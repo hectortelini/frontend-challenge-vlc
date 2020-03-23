@@ -8,16 +8,7 @@
   </head>
   <body>
     <div class="container">
-      <header class="header">
-        <div class="header__container">
-          <h1 class="header__title">
-            <a href="#" title="Creditas">
-              <img class="logo" src="https://staging.creditas.com.br/static/images/logo-creditas-white-3cd22a2808.svg" alt="Creditas">
-            </a>
-          </h1>
-          <div class="help" id="help">Help</div>
-        </div>
-      </header>
+      <c-header></c-header>
       <main class="main">
         <h1 class="main__title">Perform a loan simulation using your asset as collateral.</h1>
         <section class="section__container">
@@ -36,6 +27,7 @@
                   <label for="collateral">Collateral</label>
                   <select name="collateral" id="collateral" required>
                     <option value="vehicle">Vehicle</option>
+                    <option value="home">Home</option>
                   </select>
                 </div>
               </div>

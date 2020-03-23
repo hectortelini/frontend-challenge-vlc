@@ -31,7 +31,7 @@ body {
   height: 100%;
 }
 
-.header {
+/* .header {
   background-color: var(--mountain-meadow);
   padding: 20px 0;
 }
@@ -52,7 +52,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   color: var(--concrete);
-}
+} */
 
 .main {
   display: flex;
@@ -84,6 +84,7 @@ body {
 
 .field {
   display: inherit;
+  flex-flow: column;
 }
 
 .field-group .field:first-child {
@@ -124,7 +125,8 @@ body {
 }
 
 .range__values {
-  display: inherit;
+  display: flex;
+  justify-content: space-between;
 }
 
 .range__values span {
